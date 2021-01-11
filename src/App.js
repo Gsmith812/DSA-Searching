@@ -24,7 +24,6 @@ function App() {
   const handleLinearSearch = (e, value) => {
     e.preventDefault();
     let res = searchBstFuncs.linearSearch(value);
-    console.log(res);
     setState({
       ...state,
       response: res
@@ -34,7 +33,6 @@ function App() {
   const handleBinarySearch = (e, value) => {
     e.preventDefault();
     let res = searchBstFuncs.binarySearch(value);
-    console.log(res);
     setState({
       ...state,
       response: res
